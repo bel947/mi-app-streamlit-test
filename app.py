@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 
 # Cargar los datos
-df = pd.read_csv(r'C:\Anabel\ventas.csv')
+df = pd.read_csv('ventas.csv')
 
 # Mostrar en la web
 st.title("Mi app de ventas")
